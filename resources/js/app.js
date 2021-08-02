@@ -1,1 +1,3 @@
-require('./bootstrap');
+$('#id').click(() => {
+    alert('coucou');
+})
