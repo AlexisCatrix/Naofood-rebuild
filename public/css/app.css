@@ -557,9 +557,64 @@ video {
 .flex {
 	display: flex;
 }
+.h-\[60px\] {
+	height: 60px;
+}
 .min-h-screen {
 	min-height: 100vh;
 }
 .flex-col {
 	flex-direction: column;
+}
+.justify-start {
+	justify-content: flex-start;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+.header__content-menu {
+  display: flex;
+  align-items: center;
+}
+.header__content-menu .call-to-action {
+  background-color: #2f2e41;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 20px;
+  font-size: 18px;
+  padding: 15px 25px;
+  transition: 1s;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.header__content-menu .call-to-action:hover {
+  background-color: #f8781f;
+}
+
+.header__content-menu-single {
+  display: flex;
+  justify-content: flex-start;
+  color: #253239;
+  font-weight: 700;
+  padding: 0 5px;
+  margin-left: 20px;
+}
+.header__content-menu-single:first-child {
+  color: #f8781f;
+  margin-left: 0;
+}
+.header__content-menu-single:hover {
+  color: #f8781f;
+}
+
+body {
+  font-family: gotham, sans-serif;
+  font-size: 16px;
 }

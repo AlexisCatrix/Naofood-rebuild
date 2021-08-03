@@ -3,3 +3,8 @@
 @import "tailwindcss/utilities";
 
 @import "pages/home";
+
+body {
+    font-family: gotham, sans-serif;
+    font-size: 16px;
+}
