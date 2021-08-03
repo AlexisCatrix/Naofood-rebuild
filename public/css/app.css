@@ -572,6 +572,15 @@ video {
 .justify-start {
 	justify-content: flex-start;
 }
+.header {
+  background-color: #fff;
+  z-index: 999;
+  border-bottom: 17px solid #f8781f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .header__content {
   display: flex;
   align-items: center;
